@@ -47,9 +47,18 @@ Images from the database on phpmyadmin follow:
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/345b1201-a385-4469-bb44-7c65fb72e828" width="500" height="700">
+<img src="https://github.com/user-attachments/assets/345b1201-a385-4469-bb44-7c65fb72e828" width="500" height="600">
 <br>
 
+<br>
+<img src="https://github.com/user-attachments/assets/02fc99ca-02f8-4057-9d51-fc22911aca60" width="700" height="400">
+<br>
 
+<br>
+<img src="https://github.com/user-attachments/assets/466c311d-8968-4eea-abb4-14ef0c072d84" width="300" height="400">
+<br>
 
+<br>
+<img src="https://github.com/user-attachments/assets/73f8061c-5eb7-4cab-9fb4-af15cbf475ad" width="300" height="300">
+<br>
 
