@@ -39,7 +39,7 @@ Images from the database on phpmyadmin follow:
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/c6a81927-63a5-4232-a6fb-047e24d2708a" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/c6a81927-63a5-4232-a6fb-047e24d2708a" width="600" height="500">
 <br>
 
 <br>
@@ -47,7 +47,7 @@ Images from the database on phpmyadmin follow:
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/345b1201-a385-4469-bb44-7c65fb72e828" width="400" height="700">
+<img src="https://github.com/user-attachments/assets/345b1201-a385-4469-bb44-7c65fb72e828" width="500" height="700">
 <br>
 
 
