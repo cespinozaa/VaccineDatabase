@@ -3,7 +3,7 @@
 This project designs a vaccine database using SQL and PHP. It consists of multiple parts, starting from the creation of an ER Diagram and ending at a performance analysis. UNCG's phpmyadmin was used to manage the database (https://csc471.uncg.edu/phpMyAdmin/) as this project was created for the course CSC471: Principles of Database Systems.
 
 ## Features
-This database keeps a log of patients, their allergies, and whether or not they are insured. It also keeps a log of vaccines, vaccines' lot numbers, vaccination sites, and bills for patients. 
+This database keeps a log of patients, their allergies, which vaccines they have taken, and whether or not they are insured. It also keeps a log of vaccines, vaccines' lot numbers, vaccination sites, and bills for patients. 
 
 SQL commands were used to create and insert some data, as well as to answer certain questions about the data gathered. The fakerphp library was also used to generate fake data.
 
@@ -66,7 +66,7 @@ Images from the database on phpmyadmin follow:
 <img src="https://github.com/user-attachments/assets/e48a38db-33ed-4ef1-a2ea-365d4ef0f1b8" width="400" height="300">
 <br>
 
-Other SQL commands which answer questions about the database can be found in the sql files.
+Other SQL commands which answer questions about the database can be found in the statements.sql file.
 
 ### Part IV
 This step focused on performance analysis. 
@@ -82,8 +82,9 @@ A screenshot of the creation of tables follows:
 
 
 <br>
-A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
+Example: A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
 An SQL query was used to answer the question. Below follow screenshots of before using an index and after using an index.
+<br>
 <br>
 
 Before:
@@ -100,4 +101,12 @@ After:
 
 Reasoning: The indexes added to vaccine, vaccinationSite, and uninsured_patient helped reduce the running time of the query. By indexing the specific attributes the query was asking for, state and disease, the database was able to find the state and diseases without having to scan through all the tuples of the relations. Since the query was specifically looking for NC residents and NC vaccination sites, the index could filter through to find NC. The query was also looking for the diseases so by using the index it avoided having to scan other attributes within the vaccine relation.
 
+<br>
 
+The use of other queries, including creating 'views' can be found in the queries.sql file.
+
+## Learnings:
+Throughout this project I learned SQL, PHP, and how to create a database from scratch. I learned how to use a variety of sql commands to find specfic data in a database. I also learned how efficiently searching for the data cuts down runtime. 
+
+## Improvement:
+The database could have been used for a website so searching up information about it would be much more intuitive and accessible. It could be similar to a hospital records system. Another idea is that instead of using dummy data, the database could have contained real-world data so it would have real implications.
