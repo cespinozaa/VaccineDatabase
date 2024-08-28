@@ -20,3 +20,16 @@ Part 2 was creating a relational design:
 
 <img src="https://github.com/user-attachments/assets/c5adb608-5deb-4f20-a5d4-f99bbfb85114" width="720" height="600">
 <br>
+
+<br>
+
+Part 3 involved adding the SQL design. In this step, the SQL commands insert, create, update, join, inner join, and intersect were used. This step focused on creating tables for the database, inserting dummy data into those tables, updating data records, and answering questions about the data (such as 'What patients received a covid vaccine at Cone Health?'). Images from the database on phpmyadmin follow:
+
+<br>
+<img src="https://github.com/user-attachments/assets/f1524949-01ec-479c-b156-c4871c6e97ee" width="400" height="500">
+<br>
+
+<br>
+<img src="https://github.com/user-attachments/assets/c6b29a2e-4317-4075-93ae-92e07b8c276d" width="300" height="300">
+<br>
+
