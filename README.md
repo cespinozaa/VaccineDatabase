@@ -3,7 +3,7 @@
 This project designs a vaccine database using SQL and PHP. It consists of multiple parts, starting from the creation of an ER Diagram and ending at a performance analysis. UNCG's phpmyadmin was used to manage the database (https://csc471.uncg.edu/phpMyAdmin/) as this project was created for the course CSC471: Principles of Database Systems.
 
 ## Features
-This database keeps a log of patients, their allergies, which vaccines they have taken, and whether or not they are insured. It also keeps a log of vaccines, vaccines' lot numbers, vaccination sites, and bills for patients. 
+This database keeps a log of patients, their allergies, which vaccines they have taken, and whether or not they are insured. It also keeps a log of vaccines, vaccine lot numbers, vaccination sites, and bills for patients. 
 
 SQL commands were used to create and insert some data, as well as to answer certain questions about the data gathered. The fakerphp library was also used to generate fake data.
 
@@ -83,7 +83,7 @@ A screenshot of the creation of tables follows:
 
 <br>
 Example: A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
-An SQL query was used to answer the question. Below follow screenshots of before using an index and after using an index.
+An SQL query was used to answer the question. Below follow screenshots of before using an index and after using an index. Compare their runtimes:
 <br>
 <br>
 
@@ -103,10 +103,10 @@ Reasoning: The indexes added to vaccine, vaccinationSite, and uninsured_patient 
 
 <br>
 
-The use of other queries, including creating 'views' can be found in the queries.sql file.
+The use of other queries, including creating 'views', can be found in the queries.sql file.
 
-## Learnings:
+## Learnings
 Throughout this project I learned SQL, PHP, and how to create a database from scratch. I learned how to use a variety of sql commands to find specfic data in a database. I also learned how efficiently searching for the data cuts down runtime. 
 
-## Improvement:
+## Improvement
 The database could have been used for a website so searching up information about it would be much more intuitive and accessible. It could be similar to a hospital records system. Another idea is that instead of using dummy data, the database could have contained real-world data so it would have real implications.
