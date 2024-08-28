@@ -8,7 +8,7 @@ This database keeps a log of patients, their allergies, and whether or not they 
 SQL commands were used to create and insert some data, as well as to answer certain questions about the data gathered. The fakerphp library was also used to generate fake data.
 
 ## Process
-### Part 1 
+### Part I 
 This step involved creating an ER diagram of the database:
 
 <br>
@@ -17,7 +17,7 @@ This step involved creating an ER diagram of the database:
 
 <br>
 
-### Part 2 
+### Part II
 This step involved creating a relational design:
 <br>
 
@@ -26,7 +26,7 @@ This step involved creating a relational design:
 
 <br>
 
-### Part 3 
+### Part III
 This step involved adding the SQL design. In this step, the SQL commands insert, create, update, join, inner join, and intersect were used. This step focused on creating tables for the database, inserting dummy data into those tables, updating data records, and answering questions about the data (such as 'What patients received a covid vaccine at Cone Health?'). 
 Images from the database on phpmyadmin follow:
 
@@ -66,5 +66,8 @@ Images from the database on phpmyadmin follow:
 <img src="https://github.com/user-attachments/assets/e48a38db-33ed-4ef1-a2ea-365d4ef0f1b8" width="300" height="300">
 <br>
 
+Other SQL commands which answer questions about the database can be found in the sql files.
 
-
+### Part IV
+This step focused on performance analysis. 
+The code in the dataload.php file first connects to the connection.php file which establishes the connection to the database. Then it gets the contents of the dump.json file previously created in datagen.php and assigns the contents to an array called $allData. This associative array stores the arrays created based on the necessary tables. Then, the code queries the database to delete any existing information from the database tables. The tables are then read and the new information, which was previously created in datagen.php using the php faker library, is inserted using bindParam statements.
