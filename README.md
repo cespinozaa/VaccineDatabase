@@ -51,7 +51,7 @@ Images from the database on phpmyadmin follow:
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/02fc99ca-02f8-4057-9d51-fc22911aca60" width="500" height="400">
+<img src="https://github.com/user-attachments/assets/02fc99ca-02f8-4057-9d51-fc22911aca60" width="500" height="300">
 <br>
 
 <br>
