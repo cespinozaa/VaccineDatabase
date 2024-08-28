@@ -51,11 +51,11 @@ Images from the database on phpmyadmin follow:
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/02fc99ca-02f8-4057-9d51-fc22911aca60" width="700" height="400">
+<img src="https://github.com/user-attachments/assets/02fc99ca-02f8-4057-9d51-fc22911aca60" width="500" height="400">
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/466c311d-8968-4eea-abb4-14ef0c072d84" width="300" height="400">
+<img src="https://github.com/user-attachments/assets/466c311d-8968-4eea-abb4-14ef0c072d84" width="400" height="400">
 <br>
 
 <br>
