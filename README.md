@@ -76,7 +76,7 @@ The code in the dataload.php file first connects to the connection.php file whic
 A screenshot of the creation of tables follows: 
 
 <br>
-<img src="https://github.com/user-attachments/assets/ad6c1c5c-6521-4a19-bdcf-dedea0cf89aa" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/ad6c1c5c-6521-4a19-bdcf-dedea0cf89aa" width="500" height="500">
 <br>
 
 
@@ -84,17 +84,20 @@ A screenshot of the creation of tables follows:
 <br>
 A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
 An SQL query was used to answer the question. Below follow screenshots of before using an index and after using an index.
+<br>
 
 Before:
 <br>
-<img src="https://github.com/user-attachments/assets/9818a73e-32b3-467b-839e-b7077d1a9bcf" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/2f67ae36-a144-4663-8b73-f44bec3d56f3" width="400" height="500">
 <br>
+
+
 
 After:
 <br>
-<img src="https://github.com/user-attachments/assets/1b149259-dd4c-486c-bb44-8196483117ad" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/1b149259-dd4c-486c-bb44-8196483117ad" width="400" height="500">
 <br>
 
-The indexes added to vaccine, vaccinationSite, and uninsured_patient helped reduce the running time of the query. By indexing the specific attributes the query was asking for, state and disease, the database was able to find the state and diseases without having to scan through all the tuples of the relations. Since the query was specifically looking for NC residents and NC vaccination sites, the index could filter through to find NC. The query was also looking for the diseases so by using the index it avoided having to scan other attributes within the vaccine relation.
+Reasoning: The indexes added to vaccine, vaccinationSite, and uninsured_patient helped reduce the running time of the query. By indexing the specific attributes the query was asking for, state and disease, the database was able to find the state and diseases without having to scan through all the tuples of the relations. Since the query was specifically looking for NC residents and NC vaccination sites, the index could filter through to find NC. The query was also looking for the diseases so by using the index it avoided having to scan other attributes within the vaccine relation.
 
 
