@@ -82,7 +82,8 @@ A screenshot of the creation of tables follows:
 
 
 <br>
-Example: A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
+
+**Example:** A question posed for the database was 'What are the most common diseases prevented through vaccines for uninsured people who live in NC?'.
 An SQL query was used to answer the question. Below follow screenshots of before using an index and after using an index. Compare their runtimes:
 <br>
 <br>
@@ -99,7 +100,7 @@ After:
 <img src="https://github.com/user-attachments/assets/1b149259-dd4c-486c-bb44-8196483117ad" width="400" height="500">
 <br>
 
-Reasoning: The indexes added to vaccine, vaccinationSite, and uninsured_patient helped reduce the running time of the query. By indexing the specific attributes the query was asking for, state and disease, the database was able to find the state and diseases without having to scan through all the tuples of the relations. Since the query was specifically looking for NC residents and NC vaccination sites, the index could filter through to find NC. The query was also looking for the diseases so by using the index it avoided having to scan other attributes within the vaccine relation.
+**Reasoning:** The indexes added to vaccine, vaccinationSite, and uninsured_patient helped reduce the running time of the query. By indexing the specific attributes the query was asking for, state and disease, the database was able to find the state and diseases without having to scan through all the tuples of the relations. Since the query was specifically looking for NC residents and NC vaccination sites, the index could filter through to find NC. The query was also looking for the diseases so by using the index it avoided having to scan other attributes within the vaccine relation.
 
 <br>
 
