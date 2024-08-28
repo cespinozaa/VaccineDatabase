@@ -27,13 +27,29 @@ This step involved creating a relational design:
 <br>
 
 ### Part 3 
-This step involved adding the SQL design. In this step, the SQL commands insert, create, update, join, inner join, and intersect were used. This step focused on creating tables for the database, inserting dummy data into those tables, updating data records, and answering questions about the data (such as 'What patients received a covid vaccine at Cone Health?'). Images from the database on phpmyadmin follow:
+This step involved adding the SQL design. In this step, the SQL commands insert, create, update, join, inner join, and intersect were used. This step focused on creating tables for the database, inserting dummy data into those tables, updating data records, and answering questions about the data (such as 'What patients received a covid vaccine at Cone Health?'). 
+Images from the database on phpmyadmin follow:
 
 <br>
 <img src="https://github.com/user-attachments/assets/f1524949-01ec-479c-b156-c4871c6e97ee" width="600" height="500">
 <br>
 
 <br>
-<img src="https://github.com/user-attachments/assets/c6b29a2e-4317-4075-93ae-92e07b8c276d" width="500" height="300">
+<img src="https://github.com/user-attachments/assets/c6b29a2e-4317-4075-93ae-92e07b8c276d" width="600" height="300">
 <br>
+
+<br>
+<img src="https://github.com/user-attachments/assets/c6a81927-63a5-4232-a6fb-047e24d2708a" width="600" height="300">
+<br>
+
+<br>
+<img src="https://github.com/user-attachments/assets/26887b05-d0dd-4d21-9133-1e2ae866373b" width="600" height="300">
+<br>
+
+<br>
+<img src="https://github.com/user-attachments/assets/345b1201-a385-4469-bb44-7c65fb72e828" width="400" height="700">
+<br>
+
+
+
 
